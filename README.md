@@ -66,3 +66,23 @@ Avatar modification knowledge base
 
 1. PhysBone colliderをAdd Componentしたか確認する
 2. PhysBone側でColliderという名前のプロパティに値を設定しているかどうか確認する
+
+## Meshのポリゴン数を数えたい
+
+フレアさんが作っているMeshPolyCounterを入れる
+
+1. https://github.com/whiteflare/vpm-repos
+2. `jp.whiteflare.avatartools`をインストール
+3. Tools > whiteflare > Mesh Poly Counterで呼び出す
+
+## lilNDMFMeshSimplifierを使いたい
+
+1. Gitをインストール (ググって)
+2. Window > Package Manager
+3. 左上の \[+▼\] を押す
+4. Add package from git URLを押す
+5. `https://github.com/lilxyzw/lilNDMFMeshSimplifier.git` と入力
+6. 右の \[Add\] を押す
+7. インポートが走るのでしばらく待つ
+8. デシメートする(ポリゴン数を減らす)メッシュに"NDMF Mesh Simplifier"というコンポーネントをAdd Component
+9. 品質はお好みでどうぞ
