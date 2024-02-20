@@ -73,7 +73,9 @@ Avatar modification knowledge base
 
 1. https://github.com/whiteflare/vpm-repos
 2. `jp.whiteflare.avatartools`をインストール
-3. Tools > whiteflare > Mesh Poly Counterで呼び出す
+3. Tools > whiteflare > Mesh Poly Counter
+4. ルートのゲームオブジェクトをVRC Avatar Descriptorがついてるオブジェクトにする
+5. 各メッシュのポリゴン数が表示される
 
 ## lilNDMFMeshSimplifierを使いたい
 
