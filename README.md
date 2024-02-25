@@ -101,14 +101,19 @@ A. 関節が膨らんでほしい方向に向かって補助ボーンを入れ�
 4. ルートのゲームオブジェクトをVRC Avatar Descriptorがついてるオブジェクトにする
 5. 各メッシュのポリゴン数が表示される
 
-## lilNDMFMeshSimplifierを使いたい
+## ポリゴン数を減らしたい
 
-1. Gitをインストール (ググって)
-2. Window > Package Manager
-3. 左上の \[+▼\] を押す
-4. Add package from git URLを押す
-5. `https://github.com/lilxyzw/lilNDMFMeshSimplifier.git` と入力
-6. 右の \[Add\] を押す
-7. インポートが走るのでしばらく待つ
-8. デシメートする(ポリゴン数を減らす)メッシュに"NDMF Mesh Simplifier"というコンポーネントをAdd Component
-9. 品質はお好みでどうぞ
+Blenderなどで湯通しする方法もあるが、ここでは非破壊でポリゴン数を減らす(デシメートする)ことができるlilNDMFMeshSimplifierを使う方法を紹介する。
+
+1. Gitをインストール。詳細は割愛するのでGoogle検索を使って各自調べること。
+2. lilNDMFMeshSimplifierの前提のNon-Destructive Modular Frameworkが入ってなければVCCなどで入れる。これも詳細は割愛。
+3. Unityのプロジェクトを開く
+4. プロジェクトウィンドウ上部のツールバーで、Window > Package Manager
+5. 左上の \[+▼\] を押す
+6. Add package from git URLを押す
+7. `https://github.com/lilxyzw/lilNDMFMeshSimplifier.git` と入力
+8. 右の \[Add\] を押す
+9. インポートが走るのでしばらく待つ
+10. デシメートする(ポリゴン数を減らす)メッシュに"NDMF Mesh Simplifier"というコンポーネントをAdd Component
+11. 品質はメッシュのポリゴン数を何倍にするか。0から1なのでお好みでどうぞ
+12. Play modeに入ってプレビュー。
