@@ -124,3 +124,6 @@ Blenderなどで湯通しする方法もあるが、ここでは非破壊でポ�
 1. https://github.com/Thryrallo/VRC-Avatar-Performance-Tools をインストール。
 2. プロジェクトウィンドウ上部のツールバーで、GameObject > Thry > Avatar > VRAM
 3. どのテクスチャがどれだけTexture Memoryを消費しているか出る
+
+## VRChatでアバターをアップロードしたはずなのにdescriptionだけ更新されてる！
+2022.3.6よりも未来のエディターを使ってるとゲーム内で無視される。必ず[指定された](https://creators.vrchat.com/sdk/upgrade/current-unity-version/)バージョンを使うこと。
