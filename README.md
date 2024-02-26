@@ -117,3 +117,8 @@ Blenderなどで湯通しする方法もあるが、ここでは非破壊でポ�
 10. デシメートする(ポリゴン数を減らす)メッシュに"NDMF Mesh Simplifier"というコンポーネントをAdd Component
 11. 品質はメッシュのポリゴン数を何倍にするか。0から1なのでお好みでどうぞ
 12. Play modeに入ってプレビュー。
+
+## どのテクスチャがTexture Memoryをどれだけ消費しているか調べたい
+1. https://github.com/Thryrallo/VRC-Avatar-Performance-Tools をインストール。
+2. プロジェクトウィンドウ上部のツールバーで、GameObject > Thry > Avatar > VRAM
+3. どのテクスチャがどれだけTexture Memoryを消費しているか出る
