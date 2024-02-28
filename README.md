@@ -39,6 +39,7 @@ Avatar modification knowledge base
 3. <kbd>Ctrl</kbd>+<kbd>P</kbd>を押す
 4. With Automatic Weights、あるいはそれが多言語化されたボタンを押す
 
+### 本編
 1. Blenderをインストール
 2. モデルをインポート
 3. 補助ボーンを適用する対象のメッシュに対して**アーマチュア変形の再計算**を行う
