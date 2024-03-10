@@ -11,6 +11,18 @@ UnityやBlenderでそう思ったこと、一度はありますよね。
 CC0
 
 ## Unity
+### 衣装のきせかえをしたいのにうまくいかない
+
+チェックリスト
+1. 非MA: パラメーター名が間違っている
+2. MA: MA Merge Animatorと同じGameObjectか上にMA Parametersがない
+3. MA: MA Merge Animatorがその上のGameObjectを操作しているのにパスモードが相対的のまま
+4. MA: MA Merge Animatorのルートがおかしい (★明示的に指定していない場合は問題ない)
+5. AnimationでレイヤーのWeightが0になっている
+6. stateのmotionに何も割り当てられていない
+
+★未確認情報: LilycalInventoryでGameObjectの同時切り替えを指定しても連動しない
+
 ### コンポーネントの値をコピペしたい
 
 1. 右上の︙からCopy Component
