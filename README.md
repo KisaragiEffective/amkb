@@ -90,6 +90,11 @@ Blenderなどで湯通しする方法もあるが、ここでは非破壊でポ�
 ### VRChatでアバターをアップロードしたはずなのにdescriptionだけ更新されてる！
 2022.3.6よりも未来のエディターを使ってるとゲーム内で無視される。必ず[指定された](https://creators.vrchat.com/sdk/upgrade/current-unity-version/)バージョンを使うこと。
 
+### AAO Remove Mesh in BoxのEdit This Boxを押してもBoxが出ない！
+チェックリスト:
+1. ギズモを切ってない？ ([AAO#923](https://github.com/anatawa12/AvatarOptimizer/issues/923#issuecomment-1987869463)) \
+    切っている場合はScene viewの右上のプルダウンを調整すること。
+
 ## Blender
 ### FBXのメッシュを分割するとき
 ★ここではすでに存在する辺の上で分割することを想定する
