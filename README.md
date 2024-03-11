@@ -95,6 +95,9 @@ Blenderなどで湯通しする方法もあるが、ここでは非破壊でポ�
 1. ギズモを切ってない？ ([AAO#923](https://github.com/anatawa12/AvatarOptimizer/issues/923#issuecomment-1987869463)) \
     切っている場合はScene viewの右上のプルダウンを調整すること。
 
+### デフォルトのスクショの解像度が荒すぎる！
+<https://github.com/Reiya1013/UnityScreenshot/> を入れようね
+
 ## Blender
 ### FBXのメッシュを分割するとき
 ★ここではすでに存在する辺の上で分割することを想定する
