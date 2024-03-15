@@ -20,6 +20,8 @@ CC0
 4. MA: MA Merge Animatorのルートがおかしい (★明示的に指定していない場合は問題ない)
 5. AnimationでレイヤーのWeightが0になっている
 6. stateのmotionに何も割り当てられていない
+7. ゲームオブジェクトの名前を変えた
+8. ゲームオブジェクトの階層を変えた
 
 ★未確認情報: LilycalInventoryでGameObjectの同時切り替えを指定しても連動しない
 
