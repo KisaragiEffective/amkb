@@ -113,6 +113,14 @@ Blenderなどで湯通しする方法もあるが、ここでは非破壊でポ�
 ### デフォルトのスクショの解像度が荒すぎる！
 <https://github.com/Reiya1013/UnityScreenshot/> を入れようね
 
+### 複製したプロジェクトでアップロードすると上書きされる！
+1. `VRChat Avatar Descriptor`という名前のコンポーネントがついているゲームオブジェクトをヒエラルキーから探す。
+2. インスペクターから`Pipeline Manager`という名前のコンポーネントを探す。
+3. \[Detach (Optional)\]を押す[^2]。
+4. アップロードする際に、新しく名前、サムネ、説明文、[Content Gating](https://hello.vrchat.com/blog/content-gating)の設定をする。
+
+[^2]: `avtr_`から始まるBlueprint IDが消える。VRChatではBlueprint IDが変わると別のアバターとして扱われる。
+
 ## Blender
 ### FBXのメッシュを分割するとき
 ★ここではすでに存在する辺の上で分割することを想定する
