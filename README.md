@@ -119,6 +119,20 @@ Blenderなどで湯通しする方法もあるが、ここでは非破壊でポ�
 3. \[Detach (Optional)\]を押す[^2]。
 4. アップロードする際に、新しく名前、サムネ、説明文、[Content Gating](https://hello.vrchat.com/blog/content-gating)の設定をする。
 
+### インポートしたFBXにAnimatorがない！
+1. FBXをAssetsから探す。
+2. InspectorのImport Settingsを見る。
+3. \[Rig\] タブを見る。
+4. Animation Typeが「Humanoid」になっているかどうか見る。
+5. \[Apply\] を押す。
+
+もしボーンの動き方がおかしければ、ホーンを調整する:
+
+1. Avatar Definitionの下にある\[Configure\]を押す。
+2. `UnityEngine.Avatar`のInspectorに遷移するので、\[Configure Avatar\]を押す。
+3. ボーンを調整する。
+4. 反映する。
+
 [^2]: `avtr_`から始まるBlueprint IDが消える。VRChatではBlueprint IDが変わると別のアバターとして扱われる。
 
 ## Blender
