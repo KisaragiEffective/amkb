@@ -29,8 +29,13 @@ CC0
 ### コンポーネントの値をコピペしたい
 
 1. 右上の︙からCopy Component
-2. コンポーネントがないなら1と同じコンポーネントをAdd Component
-3. 追加したコンポーネントの︙からPaste Component Values
+2. 宛先のGame Objectに移動
+3. 宛先にコンポーネントが
+    * ないなら
+        3. 1と同じコンポーネントをAdd Component
+        4. 追加したコンポーネントの︙からPaste Component Values
+    * あるなら
+        1. *TODO*
 
 ### 非対応衣装を着せるとき
 
